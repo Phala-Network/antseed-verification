@@ -1,5 +1,8 @@
 {
   "schemaVersion": 2,
   "maxConcurrency": 200,
-  "select": "tee"
+  "select": "tee",
+  "exclude": [
+    "qwen/qwen3-32b"
+  ]
 }
