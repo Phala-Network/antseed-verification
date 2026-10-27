@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 2,
+  "maxConcurrency": 200,
+  "select": "tee"
+}
