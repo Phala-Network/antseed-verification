@@ -4,5 +4,33 @@
   "select": "tee",
   "exclude": [
     "qwen/qwen3-32b"
-  ]
+  ],
+  "freeTier": {
+    "maxRequestsPerAddress": 500,
+    "maxRequestsPerIp": 1500,
+    "windowMs": 86400000,
+    "stakersOnly": true,
+    "stakeTiers": [
+      {
+        "minPower": 52000,
+        "multiplier": 1
+      },
+      {
+        "minPower": 520000,
+        "multiplier": 5
+      },
+      {
+        "minPower": 2600000,
+        "multiplier": 20
+      },
+      {
+        "minPower": 10400000,
+        "multiplier": 50
+      }
+    ]
+  },
+  "freeUsage": {
+    "recordBatchSize": 64,
+    "recordFlushIntervalMs": 3600000
+  }
 }
