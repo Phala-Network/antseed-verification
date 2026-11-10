@@ -3,7 +3,8 @@
   "maxConcurrency": 200,
   "select": "tee",
   "exclude": [
-    "qwen/qwen3-32b"
+    "qwen/qwen3-32b",
+    "qwen/qwen3.8-27b"
   ],
   "freeTier": {
     "maxRequestsPerAddress": 500,
