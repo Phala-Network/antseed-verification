@@ -6,6 +6,9 @@
     "qwen/qwen3-32b",
     "qwen/qwen3.8-27b"
   ],
+  "aliases": {
+    "deepseek-v4.1-flash-uncensored": "phala/deepseek-v4.1-flash-1017-uncensored"
+  },
   "freeTier": {
     "maxRequestsPerAddress": 500,
     "maxRequestsPerIp": 1500,
